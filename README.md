@@ -325,11 +325,15 @@ wget https://dl.fbaipublicfiles.com/amateur_drawings/amateur_drawings_annotation
 wget https://dl.fbaipublicfiles.com/amateur_drawings/amateur_drawings.tar
 ````
 
+If you'd like higher res images, they can be found on the releases (ad_orig_img_fs). They've been split into multiple chunks using the split cli. They are released under the same license as the original dataset. 
+
 If you have feedback about the dataset, please fill out [this form](https://forms.gle/kE66yskh9uhtLbFz9).
 
 ## ChildlikeSHAPES
 
-````cat datachunk_* > full_archive.7z````
+If you want this, construct the full archive from the chunks in the release page
+````cat datachunk_* > full_archive.7z  #(pw=An1m8dR3610Ns)````
+
 
 ## Trained Model Weights
 
