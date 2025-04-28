@@ -22,7 +22,7 @@ setup(
         'PyOpenGL==3.1.6',
         'PyYAML==6.0.1',
         'requests==2.31.0',
-        'torchserve==0.7.0',
+        'torchserve==0.12.0',
         'tqdm==4.66.3',
         'Flask==2.3.2'
     ],
